@@ -1,5 +1,6 @@
 /* Claudia Games 웹사이트: 게임과 같은 흰 종이 틀 (studio/brand/tokens.css의 색과 글자 크기) */
-@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+/* 글꼴은 사이트 안에 둔다(바깥 글꼴 서버로 방문자의 IP가 가지 않게). 고운돋움 OFL, fonts/OFL.txt. 글자를 더 쓰면 원본 studio/brand/fonts에 그 글자가 있는지 본다 */
+@font-face { font-family: 'Gowun Dodum'; src: url('fonts/gowun-dodum.woff2') format('woff2'); font-display: swap; }
 :root { --bg: #FFFFFF; --surface: #F4F5F7; --line: #E6E8EC; --ink: #1F2430; --ink2: #6B7280; --accent: #FF5A4E; }
 * { box-sizing: border-box; }
 html { background: var(--bg); }
